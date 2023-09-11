@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
+    .navbar{
+    margin:1.5rem auto;
+    width:1200px;
+    display:flex;
+    
+    }
+    .nav-left{
+    width:10%;
+    
+    }
+    .navbar-ul{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    
+    }
+    
+    .nav-middle{
+    display:flex;
+    gap:3rem;
+    }
+    .nav-right{
+    display:flex;
+    gap:5rem;
+    }
+    
+    li{
+    list-style:none;
+    }
+    
+    .pos-title, .add-ones-title, .outlet-types-title, .resources-title, .book-btn-class, .pricing:hover{
+    cursor:pointer;
+    }
+    
+    .ul-pos,.add-ones-ul, .outlet-types-ul, .resources-ul li{
+    visibility:hidden;
+    }
