@@ -3,13 +3,16 @@
     padding:0px;
     box-sizing:border-box;
     }
+    
     .navbar{
     margin:1.5rem auto;
     width:1200px;
     display:flex;
     
     }
+    
     .nav-left{
+        
     width:10%;
     
     }
@@ -37,6 +40,109 @@
     cursor:pointer;
     }
     
-    .ul-pos,.add-ones-ul, .outlet-types-ul, .resources-ul li{
-    visibility:hidden;
+    .navbar ul ul li{
+        visibility: hidden;
+    }
+    
+    .navbar ul li:hover.navbar ul ul li{
+        visibility: visible;
+    }
+    
+    .nav-left{
+        color: red;
+        font-weight: 800;
+        font-size: 20px;
+        font-family: sans-serif;
+    }    
+    .b-word{
+        font-size: 25px;
+        font-style: italic;
+    }
+    
+    .book-btn{
+        border: 2px solid rgb(41, 40, 40) ;
+        padding: 12px;
+        border-radius: 5px;
+    }
+    .book-btn:hover{
+        color:white;
+        background-color: black;
+        transition-duration: 200ms;
+    }
+    
+    .free-demo{
+        display: flex;
+        width: 1200px;
+        justify-content: center;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .free-demo-left{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+       gap:3.5rem;
+        
+    }
+    
+    .free-demo-right{
+        width: 60%;
+    }
+    
+    .free-demo-right img{
+        width: 80%;
+    }
+    
+    .demo-heading{
+        align-items: center;
+        font-size: 2rem;
+        line-height: 3.75rem;
+    }
+    
+    .demo-desc p{
+        font-size: 1.2rem;
+        color:rgb(125, 117, 117);
+    }
+    
+    .demo-btn{
+        display: inline-block;
+        background-color: rgb(184, 46, 46);
+        padding: 0.8rem;
+        color:#ffff;
+        border-radius: 4px;
+        font-size: 1.2rem;
+    }
+    
+    .demo-btn:hover{
+        background-color: rgb(142, 40, 40);
+    }
+    
+    .brand-logo{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .trust-line{
+        margin-left: 26%;
+        font-size: 2rem;
+        line-height: 1rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-bottom: 4rem;
+    }
+    
+    .brand-logo-div{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-row-gap: 3rem;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+    
+    }
+    .brand-logo-div img{
+        width: 50%;
     }
