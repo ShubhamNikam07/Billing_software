@@ -1,3 +1,7 @@
+:root{
+    --red:rgb(184, 46, 46);
+    --fade:rgb(41, 40, 40) ;
+}
 *{
     margin:0px;
     padding:0px;
@@ -5,17 +9,13 @@
     }
     
     .navbar{
-    margin:1.5rem auto;
-    width:1200px;
-    display:flex;
-    
+        width:1200px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 2%;
+        height: 5rem;    
     }
-    
-    .nav-left{
-        
-    width:10%;
-    
-    }
+
     .navbar-ul{
     width:90%;
     display:flex;
@@ -25,7 +25,7 @@
     
     .nav-middle{
     display:flex;
-    gap:3rem;
+    gap:1rem;
     }
     .nav-right{
     display:flex;
@@ -49,6 +49,7 @@
     }
     
     .nav-left{
+        width:10%;
         color: red;
         font-weight: 800;
         font-size: 20px;
@@ -71,14 +72,16 @@
     }
     
     .free-demo{
-        display: flex;
         width: 1200px;
-        justify-content: center;
-        margin: 0 auto;
-        justify-content: space-between;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 0% 15%;
+       gap:3rem;
     }
     
     .free-demo-left{
+       
         display: flex;
         flex-direction: column;
         width: 35%;
@@ -136,7 +139,6 @@
         grid-template-columns: repeat(5,1fr);
         grid-template-rows: repeat(2,1fr);
         grid-row-gap: 3rem;
-        align-items: center;
         justify-content: space-evenly;
         justify-items: center;
         align-content: space-evenly;
@@ -146,3 +148,71 @@
     .brand-logo-div img{
         width: 50%;
     }
+  .resto-info{
+        width: 1200px;
+        display: flex;
+        margin-left: 13%;
+        margin-top:5%;        
+        margin-bottom: 5%;
+        flex-direction: column;
+    }
+    .info-1{
+        color:var(--red);
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .info-2{
+        font-size: 3rem;
+        font-weight: 900;
+
+    }
+
+    .info-3{
+        color:var(--fade);
+        margin: 3px;
+        font-size: 1.1rem;
+
+    }
+
+.card-desc{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-desc div{
+    display: flex;
+}
+
+.msg-sec{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.img-sec{
+    width: 40%;
+}
+.img-sec img{
+    width: 90%;
+}
+
+.card-1-img{
+   
+   
+}
+
+.card-2-img{
+    
+}
+
+.card-3-img{
+   
+}
+
+.card-4-img{
+    
+}
