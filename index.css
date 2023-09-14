@@ -8,6 +8,25 @@
     box-sizing:border-box;
     }
     
+/*tailwind css
+
+.ul-main li ul{
+    visibility: hidden;
+}
+
+.ul-main li:hover ul li{
+    visibility: visible;
+    transition-duration: 200ms;
+}
+
+.nav-right-tail{
+margin: 10px 20%;
+}
+
+.nav-right-tail button{
+margin-bottom: 60%;
+}
+tailwind css end*/
     .navbar{
         width:1200px;
         display: flex;
@@ -40,12 +59,13 @@
     cursor:pointer;
     }
     
-    .navbar ul ul li{
+    .navbar-ul li ul{
         visibility: hidden;
     }
     
-    .navbar ul li:hover.navbar ul ul li{
+    .navbar-ul li:hover li{
         visibility: visible;
+        background-color: white;
     }
     
     .nav-left{
