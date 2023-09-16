@@ -247,8 +247,12 @@ button{
     margin-left: 3px;
 }
 
-.btn-i:hover button, .btn-i:hover button+i{
+.btn-i:hover button, .btn-i:hover i{
+    margin-left: 5px;
     color: var(--red);
+    transform: scale(1.05);
+    transition-duration: 400ms;
+
 }
 
 .red-desc{
