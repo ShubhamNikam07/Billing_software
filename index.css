@@ -13,9 +13,14 @@
     .navbar{
         width:1200px;
         display: flex;
+        background-color: #ffff;
         margin: 0 auto;
         margin-top: 2%;
-        height: 5rem;    
+        height: 5rem; 
+        position: sticky;
+        top: 0;
+        /*left: 10%;  */
+       
     }
 
     .navbar-ul{
@@ -75,6 +80,7 @@
         transition-duration: 200ms;
     }
     
+
     .free-demo{
         width: 1200px;
         display: flex;
@@ -247,8 +253,12 @@ button{
     margin-left: 3px;
 }
 
-.btn-i:hover button, .btn-i:hover button+i{
+.btn-i:hover button, .btn-i:hover i{
+    margin-left: 5px;
     color: var(--red);
+    transform: scale(1.05);
+    transition-duration: 400ms;
+
 }
 
 .red-desc{
