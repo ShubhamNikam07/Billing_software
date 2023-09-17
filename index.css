@@ -13,9 +13,14 @@
     .navbar{
         width:1200px;
         display: flex;
+        background-color: #ffff;
         margin: 0 auto;
         margin-top: 2%;
-        height: 5rem;    
+        height: 5rem; 
+        position: sticky;
+        top: 0;
+        /*left: 10%;  */
+       
     }
 
     .navbar-ul{
@@ -75,6 +80,7 @@
         transition-duration: 200ms;
     }
     
+
     .free-demo{
         width: 1200px;
         display: flex;
