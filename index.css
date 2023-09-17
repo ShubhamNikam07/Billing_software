@@ -19,6 +19,7 @@
         height: 5rem; 
         position: sticky;
         top: 0;
+        z-index:1;
         /*left: 10%;  */
        
     }
@@ -210,6 +211,8 @@
     grid-gap: 5px;
     width: 50%;
     align-items: center;
+    position: sticky;
+    top: 10%;
 }
 
 .img-sec{
